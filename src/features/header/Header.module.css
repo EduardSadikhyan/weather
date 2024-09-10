@@ -1,0 +1,21 @@
+
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px;
+  background-color: #4a0072; 
+}
+
+.searchContainer {
+  display: flex;
+  flex: 1; 
+  justify-content: center;
+}
+
+.toggleContainer {
+  margin-left: auto; 
+}
+
+

@@ -1,0 +1,46 @@
+.toggleContainer {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.toggleOption {
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button{
+  cursor: pointer;
+}
+
+.active {
+  background-color: white;
+  font-weight: bold;
+  color: #4a0072;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+  .toggleContainer{
+    font-size: 10px;
+  }
+}

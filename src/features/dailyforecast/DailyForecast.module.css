@@ -1,0 +1,56 @@
+.dailyForecast {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  overflow-x: auto; 
+  overflow-y: hidden; 
+}
+
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+  min-width: 120px;
+}
+
+.active {
+  border: 2px solid #4a90e2;
+  background-color: #e0f7fa;
+}
+
+.cardDate {
+  font-weight: bold;
+}
+
+.cardBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardIcon img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    min-width: 20px; 
+    padding: 6px;
+  }
+
+  .cardBody {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardIcon img {
+    width: 25px;
+    height: 25px;
+  }
+}

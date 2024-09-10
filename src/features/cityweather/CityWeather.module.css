@@ -1,0 +1,33 @@
+.cityWeather {
+  text-align: center;
+  flex: 1;
+}
+
+.cityWeather h1 {
+  font-size: 36px;
+}
+
+.cityWeather h2 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.weatherIcon img {
+  width: 80px;
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .cityWeather h1 {
+    font-size: 24px;
+  }
+
+  .cityWeather h2 {
+    font-size: 32px;
+  }
+
+  .weatherIcon img {
+    width: 60px;
+    height: 60px;
+  }
+}

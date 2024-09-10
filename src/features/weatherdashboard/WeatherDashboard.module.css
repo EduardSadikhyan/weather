@@ -1,0 +1,94 @@
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cityWeather {
+  text-align: center;
+  flex: 1;
+}
+
+.cityWeather h1 {
+  font-size: 36px;
+}
+
+.cityWeather h2 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.weatherIcon img {
+  width: 80px;
+  height: 80px;
+}
+
+.hourlyForecast {
+  flex: 1;
+}
+
+.hourlyForecast ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hourlyForecast li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.forecastIcon img {
+  width: 40px;
+  height: 40px;
+}
+
+.dailyForecast {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.active {
+  border: 2px solid #4a90e2;
+  background-color: #e0f7fa;
+}
+
+.cardDate {
+  font-weight: bold;
+}
+
+.cardBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardIcon img {
+  width: 30px;
+  height: 30px;
+}

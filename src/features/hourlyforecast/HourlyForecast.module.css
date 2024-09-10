@@ -1,0 +1,31 @@
+.hourlyForecast {
+  flex: 1;
+}
+
+.hourlyForecast ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.hourlyForecast li {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #ccc;
+}
+
+.forecastIcon img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .hourlyForecast li {
+    padding: 5px;
+  }
+
+  .forecastIcon img {
+    width: 30px;
+    height: 30px;
+  }
+}
